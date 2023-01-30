@@ -22,3 +22,26 @@ button {
   padding: 8px 12px;
   cursor: pointer;
 }
+
+.бади {
+  background-color: rgb(48, 44, 43);
+}
+
+.gallery {
+  display: flex;
+}
+
+.gallery li {
+  list-style-type: none;
+  margin-right: 30px;
+}
+
+.goBack3, .goBack3:visited {
+  text-decoration: none;
+  color: darkorange;
+}
+
+.goBack3:hover {
+  margin-left: 100px;
+  cursor: alias;
+}
