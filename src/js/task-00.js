@@ -12,7 +12,7 @@ const cityList = document.createElement("ul")
 body.append(cityList)
 
 cities.forEach(el => {
-    if (el.length === 2) {
+    if (Array.isArray(el)) {
         const citySubList = document.createElement("ul")
 
         el.map(subEl => {
